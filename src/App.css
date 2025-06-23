@@ -1,12 +1,43 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/fonts/Poppins-Regular.otf);
+}
+@font-face {
+  font-family: Poppins-bold;
+  src: url(./assets/fonts/Poppins-Bold.otf);
+}
+@font-face {
+  font-family: Poppins-italic;
+  src: url(./assets/fonts/Poppins-Italic.otf);
+}
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .App {
   display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins,Helvetica,Arial,sans-serif;
+}
+
+.Header {
+  color:#F67969;
+  font-family: Poppins-bold;
+  font-size: .7em;
+  width:100%;
+  box-sizing: border-box;
+  padding:0 .5em;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+.SubHeader {
+  color:#00783B;
+  font-family: Poppins-bold;
 }
 
 .card {
