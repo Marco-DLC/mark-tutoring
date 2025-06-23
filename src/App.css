@@ -20,6 +20,7 @@
   flex-direction: column;
   align-items: center;
   font-family: Poppins,Helvetica,Arial,sans-serif;
+  height:100%;
 }
 
 .Header {
@@ -30,8 +31,17 @@
   box-sizing: border-box;
   padding:0 .5em;
 }
+h1 {
+  margin-bottom:0;
+}
 
-h1,h2 {
+hr {
+  height:2px;
+  border:none;
+  background-image: linear-gradient(90deg, transparent,#B2BD8E, transparent);
+}
+
+h1,h2,h3 {
   text-align: center;
 }
 
@@ -41,7 +51,20 @@ h1,h2 {
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
   border-radius: 1em 1em 0 0;
   background-color: #00783B;
+  height:100%;
+}
+
+.card-title {
+  background-color: #F67969;
+  color:#F4E0B7;
+  border-radius: 1em;
+  padding:.5em .3em;
+  box-sizing: border-box;
+}
+
+.card h3 {
+  margin:0;
 }
