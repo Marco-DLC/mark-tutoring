@@ -51,7 +51,7 @@ h1,h2,h3 {
 }
 
 .card {
-  padding: 1em;
+  padding: 1em 0;
   border-radius: 1em 1em 0 0;
   background-color: #00783B;
   height:100%;
@@ -62,9 +62,52 @@ h1,h2,h3 {
   color:#F4E0B7;
   border-radius: 1em;
   padding:.5em .3em;
+  margin:0 1em;
   box-sizing: border-box;
 }
 
 .card h3 {
   margin:0;
+}
+
+.card-content {
+  color:#B2BD8E;
+  display:flex;
+  font-size: 1.3em;
+  padding:1em 0;
+}
+
+.card img {
+  width:100px;
+  height:100px;
+  align-self: center;
+  margin-right:.5em;
+}
+
+.card ul {
+  margin:0;
+}
+
+.card li ul {
+  font-size:.8em;
+}
+
+.bio {
+  display:grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.bio p {
+  color:#F4E0B7;
+}
+
+.bio p,
+.bio span {
+  text-align: center;
+  align-self: center;
+}
+
+.bio span {
+  color:#F67969;
+  font-size:4em;
 }

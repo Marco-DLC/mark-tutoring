@@ -19,6 +19,11 @@ export default function Content() {
                 </ul>
                 <img src='books.png' />
             </div>
+            <div className='bio'>
+                <span>&#8226;</span>
+                <p>With 4 years of experience, helping build confidence in math and tailoring lessons to suit each student's individual needs</p>
+                <span>&#8226;</span>
+            </div>
         </div>
     )
 }
