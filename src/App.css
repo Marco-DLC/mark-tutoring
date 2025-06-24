@@ -99,6 +99,7 @@ h1,h2,h3 {
 
 .bio p {
   color:#F4E0B7;
+  font-family: poppins-italic;
 }
 
 .bio p,
@@ -110,4 +111,43 @@ h1,h2,h3 {
 .bio span {
   color:#F67969;
   font-size:4em;
+}
+
+#Contact {
+  padding:0 1em;
+}
+
+form {
+  background-color:#F67969;
+  border-radius: 1em;
+  padding: .1em 1em;
+}
+
+form p {
+  display: grid;
+  grid-gap:.5em;
+  grid-template-columns: 1fr 2fr;
+  color: #F4E0B7;
+}
+
+form label {
+  justify-self:end;
+}
+
+input,
+textarea {
+  background-color: #F4E0B7;
+  border: none;
+  color: #00783B;
+}
+
+textarea {
+  height: 5em;
+  resize: none;
+}
+
+form button {
+  grid-column:1 / 3;
+  background-color: #B2BD8E;
+  color:#00783B;
 }
